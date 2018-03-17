@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-weight: bold;
   font-size: 4rem;
-  margin: 3rem 0 1.5rem 0; }
+  margin: 1.5rem 0 1.5rem 0; }
 
 h2 {
   margin: 0.5em 0; }
@@ -47,7 +47,7 @@ li.social {
   margin: 0.3em 0; }
 
 #homepage-main {
-  min-height: 100vh;
+  min-height: calc(100vh - 3rem);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,7 +57,9 @@ li.social {
           flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
 
 section p, section ul {
   margin-left: 0px;
